@@ -25,6 +25,10 @@ html {
     width: 100px;
 }
 
+#menu {
+    font-size: 4rem;
+}
+
 .nav li a {
     color: #25262a;
     font-size: 0.9rem;
