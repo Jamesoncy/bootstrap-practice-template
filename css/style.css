@@ -1,5 +1,13 @@
 html {
     font-size: 16px !important;
+    color: #25262a;
+}
+
+.color-grey {
+    color: #8c92a0 !important;
+    line-height: 1.7;
+    font-weight: 300;
+    font-size: 1rem;
 }
 
 #logo {
@@ -33,4 +41,31 @@ header {
 
 #brand_title_logo {
     font-weight: 900;
+}
+
+.icons {
+    color: #7971ea;
+    font-size: 3rem;
+}
+
+.images {
+    height: 500px;
+}
+
+.women {
+    background: url('../images/women.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+.info {
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+.description {
+    position: absolute;
+    bottom: 10px;
 }
