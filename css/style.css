@@ -10,6 +10,16 @@ html {
     font-size: 1rem;
 }
 
+.nav-link-items {
+    color: #8c92a0 !important;
+    line-height: 1.7;
+    font-size: 1rem;
+}
+
+.nav-links-group li {
+    flex: 1 0 25%;
+}
+
 #logo {
     height: 50px;
     width: 100px;
@@ -72,4 +82,18 @@ header {
     bottom: 5px;
     left: 10px;
     color: white;
+}
+
+#features:after {
+    content:"";
+    background: #7971ea;
+    position: absolute;
+    top: 0;
+    left: 48.5%;
+    height: 1px;
+    width: 2.5%;
+}
+
+ul li {
+    list-style: none;
 }
