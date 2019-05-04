@@ -17,7 +17,7 @@
                 <label class = "p-2"> Search</label>
             </div>
             <div id = "left-nav" >
-                <img id = "logo" src="./images/logo.png">
+                <img id = "logo" class = "d-none d-md-block d-lg-none d-lg-block d-xl-none d-xl-block" src="./images/logo.png">
             </div>
             <div id = "right-nav">
                 <span class = "d-none d-md-block d-lg-none d-lg-block d-xl-none d-xl-block">
@@ -25,8 +25,33 @@
                     <span class="icon icon-heart-o"></span>
                     <span class="icon icon-shopping_cart"></span>
                 </span>
-                <span id = "menu" class="icon icon-menu d-block d-sm-none d-none d-sm-block d-md-none"></span>
+                <button id = "menu" class="d-block d-sm-none d-none d-sm-block d-md-none btn btn-primary btn-sm"><i class = "icon icon-menu "></i></button>
             </div>
+        </div>
+    <div id = "sidebar" class = "container color-grey w-100 d-none">
+            <ul class="nav flex-column text-right">
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Shop</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Catalog</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">New Arrivals</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+                <li class="nav-item pt-3 text-uppercase pr-3 py-2">
+                    <button id = "close-menu" class = "btn btn-lg btn-danger"><span class="icon icon-close"></span></button>
+                </li>
+            </ul>
         </div>
     </header>
     <div class = "container py-3 d-none d-md-block d-lg-none d-lg-block d-xl-none d-xl-block">
@@ -51,7 +76,6 @@
             </li>
         </ul>
     </div>
-
     <div class="jumbotron" id = "brand">
         <div class = "row">
             <div class = "col-lg-6">
@@ -196,5 +220,6 @@
 <script src="./js/jquery-3.2.1.js"></script>
 <script src="js/popper.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
+<script src = "./js/main.js"> </script>
 </body>
 </html>
