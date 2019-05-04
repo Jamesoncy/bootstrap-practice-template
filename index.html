@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="css/style.css" type = "text/css">
 </head>
 <body>
-    <header class = "py-5 text-muted sticky-top">
+    <header class = "pt-5 text-muted sticky-top">
         <div class = "row d-flex flex-wrap justify-content-around align-items-center">
             <div id = "left-nav" >
                 <span class="icon icon-search2 p-2"></span>
@@ -25,10 +25,10 @@
                     <span class="icon icon-heart-o"></span>
                     <span class="icon icon-shopping_cart"></span>
                 </span>
-                <button id = "menu" class="d-block d-sm-none d-none d-sm-block d-md-none btn btn-primary btn-sm"><i class = "icon icon-menu "></i></button>
+                <button id = "menu" class="d-block d-sm-none d-none d-sm-block d-md-none btn btn-primary btn-sm mb-2"><i class = "icon icon-menu "></i></button>
             </div>
         </div>
-    <div id = "sidebar" class = "container color-grey w-100 d-none">
+        <div id = "sidebar" class = "container color-grey w-100 d-none">
             <ul class="nav flex-column text-right">
                 <li class="nav-item">
                   <a class="nav-link" href="#">Home</a>
@@ -53,29 +53,30 @@
                 </li>
             </ul>
         </div>
+        <div class = "container py-3 d-none d-md-block d-lg-none d-lg-block d-xl-none d-xl-block border-top border-bottom mt-5">
+                <ul class="nav justify-content-center">
+                    <li class="nav-item has-children">
+                      <a class="nav-link active" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Shop</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Catalog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">New Arrivals</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+        </div>
     </header>
-    <div class = "container py-3 d-none d-md-block d-lg-none d-lg-block d-xl-none d-xl-block">
-        <ul class="nav justify-content-center">
-            <li class="nav-item has-children">
-              <a class="nav-link active" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Shop</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Catalog</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">New Arrivals</a>
-            </li>
-            <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
-            </li>
-        </ul>
-    </div>
+   
     <div class="jumbotron" id = "brand">
         <div class = "row">
             <div class = "col-lg-6">

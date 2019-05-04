@@ -61,10 +61,6 @@ html {
     text-transform: uppercase;
 }
 
-header {
-    border-bottom: 1px solid #f3f3f4 !important;
-}
-
 #brand {
     background-color: #A6F3ED !important;
     color: #000;
