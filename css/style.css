@@ -3,6 +3,11 @@ html {
     color: #25262a;
 }
 
+.sticky-top {
+    background-color: #fff !important;
+    transition: background-color 200ms linear;
+}
+
 .color-grey {
     color: #8c92a0 !important;
     line-height: 1.7;
