@@ -52,11 +52,13 @@ header {
     height: 500px;
 }
 
-.women {
-    background: url('../images/women.jpg');
-    background-size: cover;
+.images .img {
+    background-size: 100% 100%;
     background-repeat: no-repeat;
-    height: 100%;
+}
+
+.women {
+    background: linear-gradient(to bottom, transparent 0%, transparent 18%, rgba(0, 0, 0, 0.8) 99%, rgba(0, 0, 0, 0.8) 100%), url('../images/women.jpg');
 }
 
 .info {
@@ -67,5 +69,7 @@ header {
 
 .description {
     position: absolute;
-    bottom: 10px;
+    bottom: 5px;
+    left: 10px;
+    color: white;
 }
