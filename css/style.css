@@ -39,7 +39,9 @@ html {
 }
 
 .nav-links-group li {
-    flex: 1 0 25%;
+    margin: 0 !important;
+    padding: 0 !important;
+    flex-basis: 33.33%;
 }
 
 #logo {
