@@ -1,20 +1,18 @@
 $(document).ready(function(){
 
-    var sidebar = $("#sidebar")
+    var sidebar = $("#sidebar"),
+            menu = $(".menu")
     
-    function hideSidebar(timeout = 500) {
-        sidebar.removeClass("d-block")
-        setTimeout( function() {
-            sidebar.addClass("d-none")
-        }, timeout)
-       
+    function hideSidebar() {
+        sidebar.removeClass("d-block").addClass("d-none")
+        menu.removeClass("d-block d-none").addClass("d-none")
+        $("#menu").addClass("d-block")
     }
 
-    function showSidebar(timeout = 500) {
-        sidebar.removeClass("d-none")
-        setTimeout(function() {
-            sidebar.addClass("d-block")
-        }, timeout) 
+    function showSidebar() {
+        sidebar.removeClass("d-none").addClass("d-block")
+        menu.removeClass("d-block d-none").addClass("d-none")
+        $("#close-menu").addClass("d-block")
     }
 
     $('#menu').click(function() {
