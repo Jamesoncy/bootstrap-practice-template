@@ -106,6 +106,10 @@ html {
     color: white;
 }
 
+#mid-nav {
+    margin-left: -70px;
+}
+
 #features:after {
     content:"";
     background: #7971ea;
