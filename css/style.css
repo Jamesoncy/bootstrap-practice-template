@@ -95,6 +95,10 @@ html {
     background: linear-gradient(to bottom, transparent 0%, transparent 18%, rgba(0, 0, 0, 0.8) 99%, rgba(0, 0, 0, 0.8) 100%), url('../images/women.jpg');
 }
 
+.women:hover {
+    transform: scale(1.1);
+}
+
 .info {
     position: relative;
     height: 100%;
